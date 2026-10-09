@@ -1,0 +1,64 @@
+diff --git a/pets.json b/pets.json
+index 1a3d291..8fb480a 100644
+--- a/pets.json
++++ b/pets.json
+@@ -48,6 +48,9 @@
+       },
+       "tech": {
+         "zone": "ground"
++      },
++      "mole": {
++        "zone": "ground"
+       }
+     },
+     "friends": [
+@@ -60,6 +63,10 @@
+         "paper-girl",
+         "file-master",
+         "chip"
++      ],
++      [
++        "mine-mole",
++        "finance-finch"
+       ]
+     ],
+     "tag": [
+@@ -471,6 +478,26 @@
+       "visibility": "public",
+       "source_tag": "v0.1.0-20261008",
+       "source_commit": "43f2bc7eee8d4bf4cec96a99e2f2ac4518c8f2cb"
++    },
++    {
++      "repo": "mine-mole",
++      "pet": "Mine Mole",
++      "role": "pet",
++      "art": "mine-mole",
++      "kind": "mole",
++      "asset_date": "20261009",
++      "status": "hatching",
++      "published": true,
++      "job": "Researching: whether mining crypto on Astra's own PC is worth the power, and, if it is, watching the miner's hashrate, heat and earnings.",
++      "added": "2026-10-09",
++      "note": "DRAFT. Research stage only: nothing mines yet. The research note lives in findastra/mine-mole. Art is a draft until Astra approves it.",
++      "visibility": "public",
++      "says": [
++        "dig dig",
++        "is it worth the power?",
++        "too hot down here",
++        "found a crumb of coin"
++      ]
+     }
+   ],
+   "candidates": [
+diff --git a/scripts/generate-pets.mjs b/scripts/generate-pets.mjs
+index b549f25..ec44d1f 100644
+--- a/scripts/generate-pets.mjs
++++ b/scripts/generate-pets.mjs
+@@ -79,6 +79,7 @@ export const PETS = [
+   { id: 'portfolio-puffer', what: 'a chubby round penguin standing upright with flippers at its sides, a clear beak and webbed feet, wearing CUTE ROUND wire-rimmed spectacles on his face, the round Harry Potter kind', colours: 'electric magenta body, glowing cyan belly, bright neon yellow beak and feet' },
+   { id: 'ghost-protocol', what: 'a friendly small floating ghost with a rounded sheet-like head, two tiny soft arms and a gently scalloped floating hem, no legs, no props and no lettering', colours: 'pale mint and seafoam body, bright teal inner folds, dark charcoal dot eyes, tiny coral blush cheeks' },
+   { id: 'project-parrot', what: 'a compact friendly parrot perched upright with a small curved beak, folded wings and a neat short tail, no props and no lettering', colours: 'scarlet-red primary body, electric ultramarine wings and tail, bright gold beak and feet' },
++  { id: 'mine-mole', what: 'a chubby round friendly mole standing upright with a tiny pink star-shaped nose, big spade-like digging paws and a small miner hard hat with a glowing headlamp, holding a tiny pickaxe, no coins, no other props and no lettering', colours: 'glowing plum-purple velvety fur, neon hot pink nose and paws, electric teal hard hat with a white-hot lamp, silver pickaxe head' },
+ ];
+ 
+ const prompt = (p) => `${STYLE} The character is ${p.what}, in NEON unconventional colours: ${p.colours}. It must clearly read as ${p.what.split(',')[0]}.`;

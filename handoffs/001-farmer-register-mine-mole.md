@@ -1,10 +1,10 @@
-status: open (waits on Astra's OK to commit to astras-pet-apps, and on OpenAI credits for the art)
+status: open (art waits on OpenAI credits)
 for: farmer (any assistant working on astras-pet-apps)
 from: Claude Opus 5.5 (claude-opus-5-5), 2026-10-09
 needs: astras-pet-apps PET-FILES.md "Adding a pet to the Cage", PET-WORDS.md, pets.json; this repo's README and pet.json
 ---
 ## Task
-Welcome **Mine Mole** (`mine-mole`) to the Cage. Most of it is already done but **not committed**, on branch `claude/mine-mole` in the worktree `Documents\Projects\astras-pet-apps-mine-mole` (branched from origin/main at 52637db):
+Welcome **Mine Mole** (`mine-mole`) to the Cage. The registry and prompt edits are ready as a patch in this repo, [001-cage-registration-20261009.patch](001-cage-registration-20261009.patch), made against astras-pet-apps `main` at 52637db. Apply it in astras-pet-apps with `git apply <path-to>/001-cage-registration-20261009.patch` (use `git apply -3` if `main` has moved). It adds:
 
 - `pets.json`: the entry (`kind: "mole"`, `status: "hatching"`, `asset_date: "20261009"`, public, `says` lines), a new `cage_life.kinds.mole` (`zone: "ground"`), and friends `["mine-mole", "finance-finch"]`.
 - `scripts/generate-pets.mjs`: its prompt. Plum-purple fur, hot pink nose and paws, electric teal hard hat with a white-hot lamp, silver pickaxe. No other pet uses this palette.
