@@ -4,6 +4,8 @@
 
 Started with Claude Opus 5.5 (`claude-opus-5-5`), 2026-10-09: research note, pet files, v0 calculator, handoff cards. Record your model name and version here when you change something substantial.
 
+Draft sprite sheet and nine transparent mood frames added with OpenAI Codex (GPT-6), 2026-10-11, preserving the planned plum-purple mole, pink paws, teal hard hat, and silver pickaxe. Assets remain separate in `draft-art/mine-mole/` pending Astra's review; app behavior is unchanged.
+
 ## Rules
 - **Research stage.** Do not add a miner, a miner download, or a wallet address until Astra has read the research and said yes.
 - If mining goes ahead: it runs only on Astra's own PC, started by her, visible, and capped. Never hidden, never on anyone else's machine, never in a web page that visitors open.
