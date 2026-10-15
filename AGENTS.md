@@ -15,3 +15,5 @@ Draft sprite sheet and nine transparent mood frames added with OpenAI Codex (GPT
 - Pet words follow `findastra/astras-pet-apps` PET-WORDS.md. Art comes from the Cage's shared style (`scripts/generate-pets.mjs` there), never drawn ad hoc here.
 - Work left for another assistant is a card in `handoffs/` (format: `astras-pet-apps/skills/handoff/SKILL.md`).
 - Say plainly what is not done. Numbers in the research are estimates with dates; recheck before relying on them.
+
+Shared original yellow-phone shell and Pet Collar UI by OpenAI Codex (GPT-6), 2026-10-15. Coins retired by owner. Existing program/host behavior is preserved; shared disconnected controls do not establish an L3 connection.

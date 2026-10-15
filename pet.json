@@ -7,5 +7,28 @@
   "sprite": null,
   "hub": "astras-pet-apps",
   "job": "Researching: whether mining crypto on Astra's own PC is worth the power, and, if it is, watching the miner's hashrate, heat and earnings.",
-  "added": "2026-10-09"
+  "added": "2026-10-09",
+  "audit": {
+    "cadence": "manual",
+    "subject": "Pet Program source, shared controls and declared tool behavior",
+    "needs": "Local source review; real runtime and desktop actions require separate verification"
+  },
+  "framework": "PET-PROGRAM-FRAMEWORK.md (shared shell 2026-10-15; partial implementation)",
+  "framework_limitations": [
+    "Shared presentation does not establish a connected L3 harness",
+    "Native click bindings and per-tool runtime acceptance require verification"
+  ],
+  "owner": "Astra",
+  "runs_on": "Modern browser; research calculator only, no miner is installed or launched",
+  "updated": "2026-10-15",
+  "cage": {
+    "submit": {
+      "date": "2026-10-15",
+      "audit": {
+        "cadence": "manual",
+        "subject": "Pet Program source, shared controls and declared tool behavior",
+        "needs": "Local source review; real runtime and desktop actions require separate verification"
+      }
+    }
+  }
 }
