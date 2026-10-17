@@ -4,6 +4,14 @@
 
 **Status: hatching, research stage.** Nothing mines yet. The first job is to find out whether mining on Astra's own PC is worth the electricity. Read [the research note](docs/research-20261009.md).
 
+## Pictures
+
+![Mine Mole's v0 break-even calculator: hashrate, extra watts, power price and XMR price in, earnings minus power cost per day out](docs/images/mine-mole-program-page-20261017.png)
+
+Mine Mole's program page (`mine-mole-20261009.html`) on `main`, with the default estimates from the research note.
+
+Screenshots taken 2026-10-17 with GitHub Goldfish's [project-image-generator](https://github.com/findastra/github-goldfish#project-image-generator); added with Claude Opus 5.5 (`claude-opus-5-5`), 2026-10-17.
+
 ## Planned job
 If the numbers work, the app watches a miner that Astra runs on her own PC: hashrate, CPU and GPU heat, power cost, and earnings. The mole worries when it runs hot or the power costs more than it earns. If the numbers don't work, the app stays a calculator that says so.
 
