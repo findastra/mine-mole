@@ -12,6 +12,6 @@ Draft sprite sheet and nine transparent mood frames added with OpenAI Codex (GPT
 - **Never commit** wallet seeds, private keys, pool passwords, API keys or `.env` files. A public wallet address is the most that may live in a local, git-ignored config.
 - No dependencies. The web app works by double-click.
 - Fetched or user text goes into the DOM with `textContent`, never `innerHTML`.
-- Pet words follow `findastra/astras-pet-apps` PET-WORDS.md. Art comes from the Cage's shared style (`scripts/generate-pets.mjs` there), never drawn ad hoc here.
-- Work left for another assistant is a card in `handoffs/` (format: `astras-pet-apps/skills/handoff/SKILL.md`).
+- Pet words follow `findastra/astras-pet-os` PET-WORDS.md. Art comes from the Cage's shared style (`scripts/generate-pets.mjs` there), never drawn ad hoc here.
+- Work left for another assistant is a card in `handoffs/` (format: `astras-pet-os/skills/handoff/SKILL.md`).
 - Say plainly what is not done. Numbers in the research are estimates with dates; recheck before relying on them.

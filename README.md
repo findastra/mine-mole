@@ -1,6 +1,6 @@
 # Mine Mole
 
-*A pet app by Astra.* Mine Mole is a plum-purple mole in a teal hard hat who digs for crypto. He lives in the Cage with [Astra's Pet Apps](https://github.com/findastra/astras-pet-apps).
+*A pet app by Astra.* Mine Mole is a plum-purple mole in a teal hard hat who digs for crypto. He lives in the Cage with [Astra's PetOS](https://github.com/findastra/astras-pet-os).
 
 **Status: hatching, research stage.** Nothing mines yet. The first job is to find out whether mining on Astra's own PC is worth the electricity. Read [the research note](docs/research-20261009.md).
 
@@ -22,3 +22,11 @@ If the numbers work, the app watches a miner that Astra runs on her own PC: hash
 - [handoffs/](handoffs/): cards for the other pets this affects
 
 The mole's [draft sprite sheet](draft-art/mine-mole/sheet-20261011.png), [app icon](draft-art/mine-mole/idle-20261011.png), and [nine-mood manifest](draft-art/mine-mole/manifest-20261011.json) are ready for Astra's review. Created with the built-in image tool and OpenAI Codex (GPT-6), 2026-10-11, using the previously specified design. They are not activated in the app or registered in the Cage; the app remains at the research stage.
+
+## Limits
+
+What is not done, plainly. From the hub's [intelligence levels](https://github.com/findastra/astras-pet-os/blob/main/INTELLIGENCE-LEVELS.md) (checked 2026-10-17):
+
+- **Program (L1/L2):** 🟡 **Made by Astra:** *Crypto Burrow*: today only the [Mine Mole web app](https://github.com/findastra/mine-mole/blob/main/mine-mole-20261009.html); **Made by others:** the crypto-mining program
+- **Runtime (L2):** — **Should:** manage the cryptocurrency mining program and check whether mining is worth the power
+- **Agentic harness (L3):** — not built yet

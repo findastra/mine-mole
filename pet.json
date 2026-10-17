@@ -5,7 +5,12 @@
   "status": "hatching",
   "entry": "mine-mole-20261009.html",
   "sprite": null,
-  "hub": "astras-pet-apps",
-  "job": "Researching: whether mining crypto on Astra's own PC is worth the power, and, if it is, watching the miner's hashrate, heat and earnings.",
-  "added": "2026-10-09"
+  "hub": "astras-pet-os",
+  "job": "Manages the cryptocurrency mining program on Astra’s PC and checks whether mining is worth the power.",
+  "added": "2026-10-09",
+  "audit": {
+    "cadence": "weekly",
+    "subject": "the crypto mining research",
+    "needs": "your power price and graphics card model"
+  }
 }
